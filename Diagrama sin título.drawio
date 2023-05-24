@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T20:48:38.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aqk22Rwrdfd1BX9X8o70" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T14:32:11.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="cUMX5-kpK5_W0IQYRqLx" version="21.3.3" type="github">
   <diagram name="Página-1" id="0Hn8TfljZwWxdnF6DUkm">
-    <mxGraphModel dx="1434" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="897" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -660,8 +660,8 @@
             <mxPoint x="200" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="utqlpFQej-7Dy-AqB1Q6-163" value="&lt;font color=&quot;#57af55&quot;&gt;Nombre_De_estado(PK)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="230" y="1190" width="60" height="30" as="geometry" />
+        <mxCell id="utqlpFQej-7Dy-AqB1Q6-163" value="Nombre_De_estadio(PK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="860" y="1250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utqlpFQej-7Dy-AqB1Q6-164" value="Cantidad_de_jugadores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="245" y="1220" width="60" height="30" as="geometry" />
@@ -693,7 +693,7 @@
             <mxPoint x="470" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="utqlpFQej-7Dy-AqB1Q6-172" value="Equipo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="utqlpFQej-7Dy-AqB1Q6-172" value="N° de identidad" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="1190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utqlpFQej-7Dy-AqB1Q6-173" value="Nombre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -765,9 +765,6 @@
         <mxCell id="utqlpFQej-7Dy-AqB1Q6-188" value="Equipo 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="1220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="utqlpFQej-7Dy-AqB1Q6-189" value="Cantidad_de_goles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="820" y="1250" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="utqlpFQej-7Dy-AqB1Q6-193" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="1290" as="sourcePoint" />
@@ -786,29 +783,59 @@
             <mxPoint x="820" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-1" value="1 : 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-1" value="1 : 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="225" y="118" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-3" value="1: 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-3" value="1: 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540" y="218" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-4" value="0:0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-4" value="0:0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="438" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-5" value="0:0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-5" value="0:0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540" y="458" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-6" value="0:0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-6" value="0:0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="910" y="448" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-7" value="0.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-7" value="0.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="434" y="705" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-8" value="1: 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-8" value="1: 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="1128" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="07ufPam0gGn0fVrmAiY1-9" value="0: 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="07ufPam0gGn0fVrmAiY1-9" value="0: 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="1090" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-1" value="A)Entidades fuertes:&lt;br&gt;Equipo&lt;br&gt;Partido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-2" value="Entidades de debiles:&lt;br&gt;Jugador&lt;br&gt;Num. de goles" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-3" value="b)Cardinalidad: Equipo es una entidad entidad&amp;nbsp; independiente pero afecta a jugadores(0,1), &lt;br&gt;Jugadores y partido son dependientes (1,1) ya que si no hay jugadores no hay partido.&lt;br&gt;Numero de goles es un atributo dependiente de las dos entidades jugador y partido ya que depende de&lt;br&gt;como jueguen los jugadores y la cantidad de goles del partidad" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1450" width="570" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="utqlpFQej-7Dy-AqB1Q6-146">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1159.6" as="sourcePoint" />
+            <mxPoint x="430" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-6" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;0, 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="958" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-8" value="c) la entidad num de goles con juego y partido es una relacion en dependencia, no hay&lt;br&gt;relaciones reflexivas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1530" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-9" value="d) escrito en el diagrama de arriba" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1600" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-10" value="e) Es un atributo dependiente que esta separado ya que es un atributo de &quot;juego&quot;, hace referncia a la cantidad de goles&lt;br&gt;en el juego en el mismo. &lt;br&gt;el atributo almacena el total de goles del juego por lo tanto no iria ni en partido por que no es individual de cada equipo ni es la cantidad de goles por jugador" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1640" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBvvlVwAXyqM7LIzuzGk-11" value="Nombre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1188" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
